@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Medical Shop | Your Trusted Healthcare Store</title>
+
+    <meta name="description" content="Explore healthcare essentials, personal care products and pharmacy information at Medical Shop.">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <a href="#home" class="logo">
+            <span class="logo-icon">✚</span>
+            Medical <span>Shop</span>
+        </a>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#categories">Categories</a>
+            <a href="#products">Products</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <a href="#contact" class="nav-button">Contact Us</a>
+    </header>
+
+
+    <!-- HERO SECTION -->
+    <main>
+
+        <section class="hero" id="home">
+
+            <div class="hero-content">
+
+                <p class="tag">YOUR NEIGHBOURHOOD PHARMACY</p>
+
+                <h1>
+                    Your Health,<br>
+                    <span>Our Priority.</span>
+                </h1>
+
+                <p class="hero-text">
+                    Your neighbourhood destination for healthcare essentials,
+                    personal care products and friendly pharmacy service.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#products" class="primary-button">
+                        Explore Products →
+                    </a>
+
+                    <a href="#contact" class="secondary-button">
+                        Visit Our Store
+                    </a>
+                </div>
+
+                <div class="trust">
+                    <span>✓ Friendly Service</span>
+                    <span>✓ Healthcare Essentials</span>
+                </div>
+
+            </div>
+
+
+            <div class="hero-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1576602976047-174e57a47881?auto=format&fit=crop&w=900&q=85"
+                    alt="Pharmacy healthcare products"
+                >
+
+                <div class="image-overlay">
+                    <span class="overlay-icon">✚</span>
+                    <h2>Care That Matters</h2>
+                    <p>Your health is important to us.</p>
+                    <span class="health-badge">
+                        Healthcare • Wellness • Care
+                    </span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CATEGORIES -->
+        <section class="categories" id="categories">
+
+            <div class="category">
+                <span class="category-icon">💊</span>
+                <h3>Medicines</h3>
+                <p>Ask our pharmacist</p>
+            </div>
+
+            <div class="category">
+                <span class="category-icon">🩹</span>
+                <h3>First Aid</h3>
+                <p>First-aid essentials</p>
+            </div>
+
+            <div class="category">
+                <span class="category-icon">🧴</span>
+                <h3>Personal Care</h3>
+                <p>Everyday care products</p>
+            </div>
+
+            <div class="category">
+                <span class="category-icon">🩺</span>
+                <h3>Health Devices</h3>
+                <p>Healthcare equipment</p>
+            </div>
+
+        </section>
+
+
+        <!-- PRODUCTS -->
+        <section class="products section" id="products">
+
+            <div class="section-heading">
+                <p class="tag">OUR COLLECTION</p>
+                <h2>Explore Our Products</h2>
+                <p>
+                    Search our sample catalogue and enquire about product availability.
+                </p>
+            </div>
+
+
+            <!-- SEARCH -->
+            <div class="search-box">
+                <span>🔎</span>
+
+                <input
+                    type="search"
+                    id="search"
+                    placeholder="Search products..."
+                    aria-label="Search products"
+                >
+            </div>
+
+
+            <!-- PRODUCT GRID -->
+            <div class="product-grid" id="productGrid">
+
+
+                <article class="product-card" data-name="first aid kit">
+                    <div class="product-image">
+                        <img
+                            src="https://images.unsplash.com/photo-1603398938378-e54eab446dde?auto=format&fit=crop&w=500&q=80"
+                            alt="First aid supplies"
+                            loading="lazy"
+                        >
+                    </div>
+
+                    <span class="product-label">FIRST AID</span>
+
+                    <h3>First Aid Essentials</h3>
+
+                    <p>Basic first-aid supplies for everyday needs.</p>
+
+                    <button class="enquire-button" data-product="First Aid Essentials">
+                        Enquire Now →
+                    </button>
+                </article>
+
+
+                <article class="product-card" data-name="digital thermometer">
+                    <div class="product-image">
+                        <img
+                            src="https://images.unsplash.com/photo-1584634731339-252c581abfc5?auto=format&fit=crop&w=500&q=80"
+                            alt="Healthcare monitoring equipment"
+                            loading="lazy"
+                        >
+                    </div>
+
+                    <span class="product-label">HEALTH DEVICES</span>
+
+                    <h3>Health Monitoring</h3>
+
+                    <p>Ask about available healthcare monitoring devices.</p>
+
+                    <button class="enquire-button" data-product="Health Monitoring Devices">
+                        Enquire Now →
+                    </button>
+                </article>
+
+
+                <article class="product-card" data-name="personal care sanitizer hygiene">
+                    <div class="product-image">
+                        <img
+                            src="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=500&q=80"
+                            alt="Personal care products"
+                            loading="lazy"
+                        >
+                    </div>
+
+                    <span class="product-label">PERSONAL CARE</span>
+
+                    <h3>Personal Care</h3>
+
+                    <p>Everyday hygiene and personal care essentials.</p>
+
+                    <button class="enquire-button" data-product="Personal Care Products">
+                        Enquire Now →
+                    </button>
+                </article>
+
+
+                <article class="product-card" data-name="face masks protective supplies">
+                    <div class="product-image">
+                        <img
+                            src="https://images.unsplash.com/photo-1584744982491-665216d95f8b?auto=format&fit=crop&w=500&q=80"
+                            alt="Protective healthcare supplies"
+                            loading="lazy"
+                        >
+                    </div>
+
+                    <span class="product-label">HEALTHCARE</span>
+
+                    <h3>Healthcare Essentials</h3>
+
+                    <p>Ask our team about available healthcare supplies.</p>
+
+                    <button class="enquire-button" data-product="Healthcare Essentials">
+                        Enquire Now →
+                    </button>
+                </article>
+
+
+            </div>
+
+            <p id="noResults" class="no-results" hidden>
+                No matching products found. Try another search.
+            </p>
+
+            <p class="disclaimer">
+                Demo catalogue only. Images are illustrative. Product availability
+                and prices must be confirmed by the pharmacy.
+            </p>
+
+        </section>
+
+
+        <!-- ABOUT -->
+        <section class="about section" id="about">
+
+            <div class="about-image">
+                <div class="about-icon">✚</div>
+                <h3>Care You Can Trust</h3>
+                <p>Healthcare • Wellness • Support</p>
+            </div>
+
+            <div class="about-content">
+
+                <p class="tag">ABOUT OUR STORE</p>
+
+                <h2>Healthcare Made Simple</h2>
+
+                <p>
+                    Welcome to Medical Shop, a sample website designed for a
+                    neighbourhood pharmacy.
+                </p>
+
+                <p>
+                    Explore our sample product categories and contact the store
+                    to enquire about availability and pricing.
+                </p>
+
+                <div class="about-points">
+                    <p>✓ Friendly customer service</p>
+                    <p>✓ Healthcare and personal care categories</p>
+                    <p>✓ Convenient contact information</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT -->
+        <section class="contact section" id="contact">
+
+            <div class="section-heading">
+
+                <p class="tag">GET IN TOUCH</p>
+
+                <h2>Visit Our Medical Shop</h2>
+
+                <p>
+                    Contact us for store information and product enquiries.
+                </p>
+
+            </div>
+
+
+            <div class="contact-grid">
+
+                <div class="contact-card">
+                    <span>📍</span>
+                    <h3>Our Location</h3>
+                    <p>Your Shop Address, Your City</p>
+                </div>
+
+                <div class="contact-card">
+                    <span>📞</span>
+                    <h3>Call Us</h3>
+                    <p>Contact number to be added</p>
+                </div>
+
+                <div class="contact-card">
+                    <span>🕒</span>
+                    <h3>Opening Hours</h3>
+                    <p>Shop timings to be confirmed</p>
+                </div>
+
+            </div>
+
+
+            <button type="button" id="whatsappButton" class="primary-button">
+                Chat on WhatsApp ↗
+            </button>
+
+            <p class="contact-note">
+                Demo contact details. Actual shop information will be added
+                after the owner's approval.
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <a href="#home" class="footer-logo">✚ Medical Shop</a>
+
+        <p>
+            A sample pharmacy website created for demonstration purposes.
+        </p>
+
+        <p>
+            © <span id="year"></span> Medical Shop. All rights reserved.
+        </p>
+
+        <p class="footer-note">
+            This demo does not provide medical advice or sell medicines.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
